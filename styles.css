@@ -1,0 +1,105 @@
+
+
+  body{
+      background-color: lightpink;
+    }
+    .container {
+      position:relative;
+      
+    }
+    .topright {
+      position: absolute;
+      Top: 12px;
+      right:20px;
+      color: black;
+      font-family: 'Birthstone', cursive;
+      font-size: 20px,
+    }
+
+    img{
+      width: 100%;
+      height: auto;
+    }
+    .center-element{
+      margin:auto;
+      display:block;
+      width:80%;
+    }
+    nav{
+      font-family: avenir;
+      margin: 2em;
+      font-size: 170%;
+      line-height: 1.5;
+
+    }
+    nav  a{
+        color: purple
+    }
+    h2{
+      color: maroon
+
+
+}
+.parallax {
+
+/* Set a specific height */
+min-height: 500px;
+
+/* Create the parallax scrolling effect */
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.parallax div{
+height:1000px;
+}
+.hotguy{
+/* The image used */
+background-image: url("rotimi.jpeg");
+
+}
+.plies{
+/* The image used */
+background-image: url("plies.jpeg");
+
+}
+.john{
+/* The image used */
+background-image: url("john.jpeg");
+
+}
+.ciara{
+/* The image used */
+background-image: url("ciara.jpeg");
+
+}
+.babedady{
+/* The image used */
+background-image: url("trey.webp");
+
+}
+.chris{
+/* The image used */
+background-image: url("chris.png");
+}
+.jeremih{
+/* The image used */
+background-image: url("jeremih.jpeg");
+
+}
+.queenb{
+/* The image used */
+background-image: url("beyonce.jpeg");
+
+}
+.sexyvoice{
+/* The image used */
+background-image: url("annie.jpeg");
+
+}
+.myhusband{
+/* The image used */
+background-image: url("rick.jpeg");
+
+}
