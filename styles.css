@@ -1,11 +1,34 @@
-
-
-  body{
+body{
       background-color: lightpink;
+      margin: 0;
+      padding: 0;
+
     }
-    .container {
-      position:relative;
-      
+    .p, h1, h2, h3 {
+      border: purple 3px solid;
+    }
+    a{
+      border: red 2px solid;
+
+    }
+    ol{
+      padding: 2%
+      margin:auto;
+      border: white 1px solid;
+      width: 80%
+    }
+    li{
+      border-bottom: white 2px solid;
+      padding: 5px;
+      width: 90%
+      margin: auto;
+    }
+    img{
+      border: lightpink 2px solid;
+      background: white;
+      margin: 10px auto;
+      padding: 2%;
+
     }
     .topright {
       position: absolute;
@@ -14,11 +37,6 @@
       color: black;
       font-family: 'Birthstone', cursive;
       font-size: 20px,
-    }
-
-    img{
-      width: 100%;
-      height: auto;
     }
     .center-element{
       margin:auto;
@@ -33,10 +51,10 @@
 
     }
     nav  a{
-        color: purple
+        color: none
     }
     h2{
-      color: maroon
+      color: none
 
 
 }
