@@ -4,60 +4,49 @@ body{
       padding: 0;
 
     }
-    .p, h1, h2, h3 {
-      border: purple 3px solid;
+    img{
+      width: 100%
+      height:auto;
     }
-    a{
-      border: red 2px solid;
-
-    }
-    ol{
-      padding: 2%
+  .center-element{
+    margin:auto;
+    display:block;
+    width:80%;
+  }
+  .topright {
+    position: absolute;
+    Top: 12px;
+    right:20px;
+    color: black;
+    font-family: 'Birthstone', cursive;
+    font-size: 20px,
+  }
+  nav{
+  font-family: avenir;
+  margin: 2em;
+  font-size: 170%;
+  line-height: 1.5;
+}
+nav
+  a{
+    color: black
+  }
+.h2{
+  color: maroon
+}
+  ol{
+      padding: 1%
       margin:auto;
-      border: white 1px solid;
-      width: 80%
+      border:  2px black solid;
+      width: 70%
     }
     li{
-      border-bottom: white 2px solid;
-      padding: 5px;
+      border-bottom: white 2px scrolling;
+      padding: 6px;
       width: 90%
       margin: auto;
     }
-    img{
-      border: lightpink 2px solid;
-      background: white;
-      margin: 10px auto;
-      padding: 2%;
 
-    }
-    .topright {
-      position: absolute;
-      Top: 12px;
-      right:20px;
-      color: black;
-      font-family: 'Birthstone', cursive;
-      font-size: 20px,
-    }
-    .center-element{
-      margin:auto;
-      display:block;
-      width:80%;
-    }
-    nav{
-      font-family: avenir;
-      margin: 2em;
-      font-size: 170%;
-      line-height: 1.5;
-
-    }
-    nav  a{
-        color: none
-    }
-    h2{
-      color: none
-
-
-}
 .parallax {
 
 /* Set a specific height */
@@ -79,12 +68,12 @@ background-image: url("rotimi.jpeg");
 }
 .plies{
 /* The image used */
-background-image: url("plies.jpeg");
+background-image: url("plies.webp");
 
 }
 .john{
 /* The image used */
-background-image: url("john.jpeg");
+background-image: url("johnlegend.jpeg");
 
 }
 .ciara{
@@ -94,7 +83,7 @@ background-image: url("ciara.jpeg");
 }
 .babedady{
 /* The image used */
-background-image: url("trey.webp");
+background-image: url("babydaddy.jpg");
 
 }
 .chris{
@@ -103,7 +92,7 @@ background-image: url("chris.png");
 }
 .jeremih{
 /* The image used */
-background-image: url("jeremih.jpeg");
+background-image: url("jeremih.jpg");
 
 }
 .queenb{
@@ -113,11 +102,11 @@ background-image: url("beyonce.jpeg");
 }
 .sexyvoice{
 /* The image used */
-background-image: url("annie.jpeg");
+background-image: url("ann.jpg");
 
 }
 .myhusband{
 /* The image used */
-background-image: url("rick.jpeg");
+background-image: url("ricky.jpg");
 
 }
